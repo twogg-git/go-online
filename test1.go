@@ -1,4 +1,3 @@
-FROM golang
 package main
 
 import "fmt"
