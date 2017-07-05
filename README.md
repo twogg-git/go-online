@@ -19,7 +19,7 @@ docker run -p "8080:8080" --rm golang sh -c \ "go get github.com/twogg-git/go-on
 
 #### 1. Dowload build and install hello world file
 ```sh
-docker run golang go get -v github.com/twogg-git/go-online/...
+docker run golang go get -v github.com/twogg-git/go-online/hello/...
 ```
 
 #### 2. Built the container into a new image
@@ -29,7 +29,7 @@ docker commit $(docker ps -lq) testgo
 
 #### 3. Run the image 
 ```sh
-docker run testgo go-online
+docker run testgo hello
 ```
 
 Based on: https://blog.docker.com/2016/09/docker-golang/
