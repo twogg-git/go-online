@@ -1,7 +1,7 @@
 # go-online
-This go examples are ment to run on labs.play-with-docker.com/ 
+This go examples are ment to run on http://labs.play-with-docker.com/ 
 
-First start a session in labs.play-with-docker.com/, then "ADD NEW INSTANCE".
+First start a session in http://labs.play-with-docker.com/, then "ADD NEW INSTANCE".
 
 ### To run directly each example just use the following commands:
 
